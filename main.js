@@ -47,6 +47,10 @@
       delay: 7000,
     }, 7000)
 
+    sr.reveal('#chat7', {
+      delay: 7100,
+    }, 7100)
+
     sr.reveal('h2', {
       viewFactor:0.2,
       duration: 1500,
