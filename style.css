@@ -191,10 +191,19 @@ h2 {
     font-size: 18px;
     line-height: 1.8rem;
     Font-Family: 'Fira Sans', Sans-Serif;
-    /* Font-Family: 'Lato', Sans-Serif; */
     word-spacing: 0.4rem;
     letter-spacing: 0.08rem;
     padding-top: 1rem;
+}
+
+.we {
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.8rem;
+    Font-Family: 'Fira Sans', Sans-Serif;
+    word-spacing: 0.4rem;
+    letter-spacing: 0.08rem;
+    padding-top: 0.8rem;
     padding-bottom: 2rem;
 }
 
@@ -264,4 +273,15 @@ footer{
 .style {
     transform: none !important;
     transition: none !important;
+}
+
+.wish{
+    color: white;
+    text-align: center;
+    padding: 25px;
+    font-size: 26px;
+    overflow-y: hidden;
+    Font-Family: 'Cormorant Garamond', Serif;
+    letter-spacing: 1.5px;
+    font-weight: bolder;
 }
