@@ -55,6 +55,14 @@
       reset: true,
     })
 
+    sr.reveal('.wish', {
+      viewFactor:0.2,
+      duration: 1500,
+      origin: 'left',
+      distance: '200px',
+      reset: true,
+    })
+
     sr.reveal('.container p', {
       viewFactor:0.2,
       duration: 1500,

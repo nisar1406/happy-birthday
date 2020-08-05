@@ -1,3 +1,24 @@
+@font-face {
+    font-family: firstFont;
+    src: url("Cormorant_Garamond/CormorantGaramond-Italic.ttf");
+}
+
+@font-face {
+    font-family: secondFont;
+    src: url("Fira_Sans/FiraSans-Light.ttf");
+}
+
+@font-face {
+    font-family: thirdFont;
+    src: url("Pacifico/Pacifico-Regular.ttf");
+}
+
+@font-face {
+    font-family: forthFont;
+    src: url("Great_Vibes/GreatVibes-Regular.ttf");
+}
+
+
 * {
     /*border: 1px solid #fff;*/
     box-sizing: border-box;
@@ -121,9 +142,16 @@ h2 {
     border: 3px solid rgba( 255, 247, 209, 0.9);
 }
 
+#heading {
+    font-family: thirdFont;
+}
 
 .right img {
     border: 3px solid rgba(181, 235, 124, 0.9);
+}
+
+.cursive {
+    font-family: thirdFont;
 }
 
 .faceIcon {
@@ -178,7 +206,7 @@ h2 {
 
 .container-fluid .container h2 {
     overflow-y: hidden;
-    Font-Family: 'Cormorant Garamond', Serif;
+    Font-Family: firstFont;
     Font-Size: 55px;
     text-align: center;
     line-height: 3rem;
@@ -190,7 +218,7 @@ h2 {
     text-align: center;
     font-size: 18px;
     line-height: 1.8rem;
-    Font-Family: 'Fira Sans', Sans-Serif;
+    Font-Family: secondFont;
     word-spacing: 0.4rem;
     letter-spacing: 0.08rem;
     padding-top: 1rem;
@@ -200,11 +228,19 @@ h2 {
     text-align: center;
     font-size: 18px;
     line-height: 1.8rem;
-    Font-Family: 'Fira Sans', Sans-Serif;
+    Font-Family: secondFont;
     word-spacing: 0.4rem;
     letter-spacing: 0.08rem;
     padding-top: 0.8rem;
     padding-bottom: 2rem;
+}
+
+.heading1 {
+    font-family: forthFont;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    font-size: 2rem;
+    overflow-y: hidden
 }
 
 .container-fluid {
@@ -279,9 +315,9 @@ footer{
     color: white;
     text-align: center;
     padding: 25px;
+    Font-Family: firstFont;
     font-size: 26px;
     overflow-y: hidden;
-    Font-Family: 'Cormorant Garamond', Serif;
     letter-spacing: 1.5px;
     font-weight: bolder;
 }
